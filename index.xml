@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matthew Threlfall Portfolio</title>
+    <link>https://akafletch.github.io/</link>
+    <description>Recent content on Matthew Threlfall Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 30 Apr 2019 03:35:19 +0100</lastBuildDate>
+    
+	<atom:link href="https://akafletch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://akafletch.github.io/posts/init-post/</link>
+      <pubDate>Tue, 30 Apr 2019 03:35:19 +0100</pubDate>
+      
+      <guid>https://akafletch.github.io/posts/init-post/</guid>
+      <description>Hello World! I&amp;rsquo;m Matthew Threlfall a Software Engineer with interests surrounding cyber security, machine learning and game development. For work I work in a variety of languages including but not limited to Python 2&amp;frasl;3, Golang, C# and many more. In my spare time I work on games with my friends and I am a third owner of Ametentia, a game development studio where I mostly partake in designing and developing games.</description>
+    </item>
+    
+  </channel>
+</rss>
