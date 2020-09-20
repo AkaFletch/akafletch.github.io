@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matt Threlfall</title>
-    <link>https://www.threlfall.dev/</link>
-    <description>Recent content on Matt Threlfall</description>
+    <title>Blogs on Matt Threlfall</title>
+    <link>https://www.threlfall.dev/blog/</link>
+    <description>Recent content in Blogs on Matt Threlfall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Copyright © 2008–2020, Matt Threlfall; all rights reserved.</copyright>
     <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.threlfall.dev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.threlfall.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
       <description>New site I&amp;rsquo;ve had this site for like nearly a year now and I&amp;rsquo;ve never really made any posts. Infact, I put my generated site into git but not my source, and so I lost it all when I updated my computer. So I guess I&amp;rsquo;m making it again, this time I swear I&amp;rsquo;ll save the source in git.
 Me I&amp;rsquo;m a software developer with intrests in:
  lowlevel programming embedded systems machine learning cyber security game development Not web tech  A big mix of unrelated things, and it turns out I&amp;rsquo;m not good at any of them.</description>
-    </item>
-    
-    <item>
-      <title>o/ Hello, contact me</title>
-      <link>https://www.threlfall.dev/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.threlfall.dev/contact/</guid>
-      <description>Find me around Twitter&amp;rsquo;s probably best, find me @matttmodes
-My email also exists, but I&amp;rsquo;d prefer you didn&amp;rsquo;t mattrthrelfall@gmail.com</description>
     </item>
     
   </channel>
