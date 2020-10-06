@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Developer who really doesn&#39;t like software">
+    <meta name="Author" content="Matt Threlfall">
+    <meta name="keywords" content="hugo blog">
+    <link rel="stylesheet" href=https://www.threlfall.dev/css/syntax.css>
+    <link rel="stylesheet" href=https://www.threlfall.dev/css/style.css>
+    <script src="https://kit.fontawesome.com/1b7478c139.js" crossorigin="anonymous"></script>
+    <title>Matt Threlfall</title>
+  </head><body><aside id="sidenav">
+    <header>
+    
+        <a href=https://www.threlfall.dev><img src="https://www.threlfall.dev/avatar.png" alt="avatar"></a>
+        
+    
+
+    <a id="branding" href=https://www.threlfall.dev>
+        
+            Matt Threlfall
+        
+    </a>
+    </header>
+
+    <nav>
+        
+            		
+            <a href="/"
+                
+            >
+                <i class="fas fa-home fa-sm"></i>
+                <span>home</span>
+            </a>
+        
+            		
+            <a href="/tags"
+                
+            >
+                <i class="fas fa-tags fa-ms"></i>
+                <span>tags</span>
+            </a>
+        
+            		
+            <a href="https://github.com/akafletch"
+                
+                    target="_blank"
+                
+            >
+                <i class="fab fa-github fa-ms"></i>
+                <span>github</span>
+            </a>
+        
+            		
+            <a href="https://twitter.com/matttmodes"
+                
+                    target="_blank"
+                
+            >
+                <i class="fab fa-twitter fa-ms"></i>
+                <span>twitter</span>
+            </a>
+        
+            		
+            <a href="/contact"
+                
+            >
+                <i class="far fa-envelope"></i>
+                <span>contact</span>
+            </a>
+        
+    </nav>
+</aside>
+<main id="main">
+            <a href="javascript:void(0)" id="closebtn" onclick="navToggle()"><i class="fas fa-bars fa-lg"></i></a>
+            <div class="content">
+    
+    <h1 id="title">LD47</h1>
+    
+      
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#preparing">Preparing</a>
+      <ul>
+        <li><a href="#ld47">LD47</a></li>
+        <li><a href="#before-the-jam">Before the Jam</a></li>
+        <li><a href="#theme-announcement-and-ideas">Theme announcement and ideas</a></li>
+      </ul>
+    </li>
+    <li><a href="#coding">Coding</a>
+      <ul>
+        <li><a href="#sdl-graphics-renderer">SDL Graphics Renderer</a></li>
+        <li><a href="#opengl">OpenGL</a></li>
+        <li><a href="#coordinates-on-a-circle">Coordinates on a circle</a></li>
+        <li><a href="#collision-detection">Collision detection</a></li>
+      </ul>
+    </li>
+    <li><a href="#final-product">Final product</a>
+      <ul>
+        <li><a href="#screenshots">Screenshots</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusions">Conclusions</a></li>
+  </ul>
+</nav>
+    <h2 id="preparing">Preparing</h2>
+<h3 id="ld47">LD47</h3>
+<p>Friday the 9th of October to Monday the 12th was Ludum Dare 47. A game jam where developers (try) make a game within the 3 day time period. The main event is actually the Friday-Sunday however I took part in the Jam. The theme for this Jam was &ldquo;Stuck in a loop&rdquo;</p>
+<p>I had never taken part in a Ludum Dare by myself before.</p>
+<h3 id="before-the-jam">Before the Jam</h3>
+<p>I had decided to take part in the Jam since I was free on the weekend and thought it&rsquo;d be interesting. After finishing work I had around 3 hours to setup for the start of the Jam at 11pm. I decided to use C and SDL in the Jam as I hadn&rsquo;t been programming in C nearly enough and SDL seemed to mesh better with C than SFML which I have used previously. Prior to the start of the Jam I created a small general purpose SDL app, It&rsquo;s within the rules to have some barebones skeleton code which can be used to create the game. If people are using engines like unity, people who are coding from a direct media layer should be okay to have some basic setup done. I had setup something which opened a window, had a setup ready for state management and could handle basic input from the user.</p>
+<h3 id="theme-announcement-and-ideas">Theme announcement and ideas</h3>
+<p>The theme was announced as &ldquo;Stuck in a loop.&rdquo; I didn&rsquo;t have many ideas for the game with this theme, but the plan was to keep it very minimal since I was working alone and didn&rsquo;t want to feature creep to a point where I didn&rsquo;t finish the game. I had two initial ideas for the game. A programming a game which used a simple syntax and the user would have to debug the application for why it was looping without a debugger. Another idea was a game which the character would constantly loop around the same play area, which would get harder and harder to survive each loop.</p>
+<p>The programming game idea was quickly thrown out because of the complexity and amount of features required. I&rsquo;d have to make a simple grammar, a very basic compiler and even further I&rsquo;d have to handle text input and kerning. It didn&rsquo;t seem feasible and honestly, it felt a bit boring.</p>
+<p>The looping idea is the one I ran with and I quickly came up with a few ideas. A character that revolves around a circle trying to keep up with the camera. If the player goes off-screen they lose. To make it interesting I wanted to add small platforming challenges around the circle which as the game went on would get harder and harder. The camera itself would not rotate at all, but because it&rsquo;s following the circumference of the circle the player would go upside down inverting their controls for part of the game.</p>
+<h2 id="coding">Coding</h2>
+<h3 id="sdl-graphics-renderer">SDL Graphics Renderer</h3>
+<p>So the first thing I needed to do was setup some basic graphics for the player and the world. I quickly found that the built in geometry rendering offered by SDL was not exactly what I thought. Its built ins were to draw rectangles and points, but could only fill rectangles. At this point my thoughts were a circle world and a triangle player so it was time to change the stack.</p>
+<h3 id="opengl">OpenGL</h3>
+<p>I don&rsquo;t know OpenGl.</p>
+<p>In fact I don&rsquo;t know anything about graphics apis really. I didn&rsquo;t want to learn OpenGl during a 72 hour time limit, so I reached out for help from my friend James who incredibly kindly pull requested some basic opengl setup into my repository. He had setup a 3d perspective camera and some simple draw commands for me within an hour which basically saw me through to the end of the Jam.</p>
+<h3 id="coordinates-on-a-circle">Coordinates on a circle</h3>
+<p>Following the game design, I decided it made more sense to coordinate positions on it with polar coordinates over Cartesian . All positions on the circle were defined with a height and an angle on the circle body. When it came time to render the player, each vertex was simply rotated around the circle&rsquo;s centre with a rotation matrix. This made rendering and tracking the progress of the player easy. But later it had adverse effects on detecting collisions etc, as after translating the vertexes I had no idea the angles of each polygon edge. I ended up working out collisions simply by translating the co-ordinates first which was a little wasteful of cpu cycles.</p>
+<h3 id="collision-detection">Collision detection</h3>
+<p>By this time I had a new idea which would reduce scope of the game but mean the final product would have a tighter design. I had done away with the platforming idea and any kind of obstacles to navigate as the player. The new idea was to have comets fly down from the sky, after every loop more comets would appear, but also the previous comets would fall in the exact same way. This change meant collisions were simpler as it allowed circle line collisions to be used. I won&rsquo;t lie, it took me a long while to get circle line collision detecting working, mostly due to the confusion over the equation I was using. It took two points and a circle and would give the closest point on the line to the circle; my issue was I assumed the line was limited between the two points when in fact the line returned was just on the line. Once I worked that out it was smooth sailing.</p>
+<h2 id="final-product">Final product</h2>
+<p>The final product was a small game which honestly turned out pretty fun. I can&rsquo;t say the code is good quality, it lost structure quickly and I didn&rsquo;t have time to refactor. I didn&rsquo;t end up releasing it to the ldjam.com as I couldn&rsquo;t get a windows port setup before the deadline. You can add releases after the deadline, however I thought I&rsquo;d leave it to rest. All in all it was a working product that I think was missing some nice features like a menu and a tutorial. But I&rsquo;m happy with how it played.</p>
+<h3 id="screenshots">Screenshots</h3>
+<p><figure>
+    <img src="/ld47/screenshot1.png"/> 
+</figure>
+
+<figure>
+    <img src="/ld47/screenshot2.png"/> 
+</figure>
+</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>I&rsquo;m going to look into learning a rendering api like OpenGL or Vulkan since I was pretty let down by SDL and I think taking control into my own hands seems best. I want to aim for Vulkan but I think OpenGL would help understand the fundamentals before learning Vulkan. I&rsquo;m also going to look into my vector and matrix maths, it was pretty clear I was lacking there.</p>
+
+    
+    <div class="nav-next-prev">
+        <div class="nav-prev">
+            
+                <a href="https://www.threlfall.dev/blog/hello-world/"><i class="fas fa-chevron-left"></i></a>
+            
+        </div>
+        <a class="nav-top" href="#">top</i></a>
+        <div class="nav-next">
+            
+                <a class="grayed-out" href="javascript:void()"><i class="fas fa-chevron-right"></i></a>
+            
+        </div>
+    </div>
+    
+
+            </div><footer>
+<div class="footer-content">
+
+  <div class="contact-info">
+      
+          <div class="footer-mail">
+          <i class="far fa-envelope"></i> <a href="mailto:mattrthrelfall@gmail.com">mattrthrelfall@gmail.com</a> </div>
+      
+      
+  </div>
+
+
+<p class="copyright meta">Copyright © 2008–2020, Matt Threlfall; all rights reserved.</p>
+
+</div>
+</footer></main>
+    </body>
+    <script src=https://www.threlfall.dev/js/navbutton.js></script>
+</html>

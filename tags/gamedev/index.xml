@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GameDev on Matt Threlfall</title>
+    <link>https://www.threlfall.dev/tags/gamedev/</link>
+    <description>Recent content in GameDev on Matt Threlfall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Copyright © 2008–2020, Matt Threlfall; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 20:12:36 +0100</lastBuildDate><atom:link href="https://www.threlfall.dev/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LD47</title>
+      <link>https://www.threlfall.dev/blog/ld47/</link>
+      <pubDate>Tue, 06 Oct 2020 20:12:36 +0100</pubDate>
+      
+      <guid>https://www.threlfall.dev/blog/ld47/</guid>
+      <description>Preparing LD47 Friday the 9th of October to Monday the 12th was Ludum Dare 47. A game jam where developers (try) make a game within the 3 day time period. The main event is actually the Friday-Sunday however I took part in the Jam. The theme for this Jam was &amp;ldquo;Stuck in a loop&amp;rdquo;
+I had never taken part in a Ludum Dare by myself before.
+Before the Jam I had decided to take part in the Jam since I was free on the weekend and thought it&amp;rsquo;d be interesting.</description>
+    </item>
+    
+  </channel>
+</rss>
