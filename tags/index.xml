@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Copyright © 2008–2020, Matt Threlfall; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2020 20:12:36 +0100</lastBuildDate><atom:link href="https://www.threlfall.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding</title>
+      <link>https://www.threlfall.dev/tags/coding/</link>
+      <pubDate>Tue, 06 Oct 2020 20:12:36 +0100</pubDate>
+      
+      <guid>https://www.threlfall.dev/tags/coding/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://www.threlfall.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GameDev</title>
+      <link>https://www.threlfall.dev/tags/gamedev/</link>
+      <pubDate>Tue, 06 Oct 2020 20:12:36 +0100</pubDate>
+      
+      <guid>https://www.threlfall.dev/tags/gamedev/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>LudumDare</title>
+      <link>https://www.threlfall.dev/tags/ludumdare/</link>
+      <pubDate>Tue, 06 Oct 2020 20:12:36 +0100</pubDate>
+      
+      <guid>https://www.threlfall.dev/tags/ludumdare/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Meta</title>
