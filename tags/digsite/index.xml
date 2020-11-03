@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digsite on Matt Threlfall</title>
+    <link>https://www.threlfall.dev/tags/digsite/</link>
+    <description>Recent content in Digsite on Matt Threlfall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Copyright © 2008–2020, Matt Threlfall; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 03 Nov 2020 19:56:36 +0000</lastBuildDate><atom:link href="https://www.threlfall.dev/tags/digsite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archaeology Game</title>
+      <link>https://www.threlfall.dev/blog/digsitegame/</link>
+      <pubDate>Tue, 03 Nov 2020 19:56:36 +0000</pubDate>
+      
+      <guid>https://www.threlfall.dev/blog/digsitegame/</guid>
+      <description>Digsite Following LD47 I was pretty annoyed at my complete inability to use OpenGL since it caused a lot of wasted hours and on the time limit I didn&amp;rsquo;t have time to slow down and learn how to use it correctly. So following this I came up with a general idea for a game I want to make in 3D. It feels like a perfect practice ground for OpenGL and a perfect way to struggle my way through 3d game development.</description>
+    </item>
+    
+  </channel>
+</rss>

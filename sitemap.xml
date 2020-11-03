@@ -3,18 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.threlfall.dev/blog/digsitegame/</loc>
+    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.threlfall.dev/blog/</loc>
-    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
+    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.threlfall.dev/tags/coding/</loc>
-    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
+    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.threlfall.dev/tags/digsite/</loc>
+    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.threlfall.dev/tags/gamedev/</loc>
-    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
+    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.threlfall.dev/</loc>
+    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.threlfall.dev/tags/opengl/</loc>
+    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.threlfall.dev/tags/</loc>
+    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
   </url>
   
   <url>
@@ -24,16 +49,6 @@
   
   <url>
     <loc>https://www.threlfall.dev/tags/ludumdare/</loc>
-    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.threlfall.dev/</loc>
-    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.threlfall.dev/tags/</loc>
     <lastmod>2020-10-06T20:12:36+01:00</lastmod>
   </url>
   
