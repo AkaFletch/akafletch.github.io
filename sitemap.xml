@@ -1,79 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://www.threlfall.dev/blog/digsitegame/</loc>
-    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://www.threlfall.dev/blog/</loc>
-    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
+  </url><url>
     <loc>https://www.threlfall.dev/tags/coding/</loc>
-    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.threlfall.dev/tags/digsite/</loc>
-    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
+  </url><url>
     <loc>https://www.threlfall.dev/tags/gamedev/</loc>
-    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.threlfall.dev/</loc>
-    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.threlfall.dev/tags/opengl/</loc>
-    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.threlfall.dev/tags/</loc>
-    <lastmod>2020-11-03T19:56:36+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
+  </url><url>
     <loc>https://www.threlfall.dev/blog/ld47/</loc>
     <lastmod>2020-10-06T20:12:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.threlfall.dev/tags/ludumdare/</loc>
     <lastmod>2020-10-06T20:12:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.threlfall.dev/</loc>
+    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.threlfall.dev/tags/</loc>
+    <lastmod>2020-10-06T20:12:36+01:00</lastmod>
+  </url><url>
     <loc>https://www.threlfall.dev/categories/</loc>
     <lastmod>2020-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.threlfall.dev/blog/hello-world/</loc>
     <lastmod>2020-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.threlfall.dev/tags/meta/</loc>
     <lastmod>2020-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.threlfall.dev/categories/website/</loc>
     <lastmod>2020-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.threlfall.dev/contact/</loc>
   </url>
-  
 </urlset>
